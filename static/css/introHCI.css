@@ -2,7 +2,10 @@
 .example-class-selector {
 	margin-top: 2em;
 }
-
+p {
+     font-variant: small-caps;
+ }
+ 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
